@@ -34,7 +34,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://www.overleaf.com/read/tbvpvkmswjqf#70d27b"
+                href="https://drive.google.com/drive/folders/1aQwggvZMQdun09t4EyauHatAJncwXYoe?usp=sharing"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
