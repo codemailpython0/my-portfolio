@@ -3,32 +3,42 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "Document Signature app",
+    title: "Document Signature",
     description: "A full-stack Document Signature App (DocuSign Clone) that lets users upload PDFs, sign documents digitally, send public signature links, and track signature audits.",
     image: "/projects/project1.png",
     tags: ["Node.js", "React+vite", "Supabase"],
     demoUrl: "https://signapp-client.vercel.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/codemailpython0/signapp_client",
   },
   {
     id: 2,
+    title: "Password Manager",
+    description:
+      "A secure and intuitive password manager web app to safely store and manage your cards and credentials.",
+    image: "/projects/project2.png",
+    tags: ["Next.js","Cleark", "Supabase"],
+    demoUrl: "https://pass-manager-kkb.vercel.app/",
+    githubUrl: "https://github.com/codemailpython0/password-manager-app",
+  },
+  {
+    id: 3,
     title: "speech to text website",
     description:
       "IA web app that converts uploaded or recorded audio into accurate text using advanced speech recognition APIs like Whisper or Google Speech-to-Text.",
-    image: "/projects/project2.jpg",
+    image: "/projects/project3.jpg",
     tags: ["TypeScript", "D3.js", "Next.js"],
     demoUrl: "https://guileless-meringue-438d3e.netlify.app/",
-    githubUrl: "#",
+    githubUrl: "https://github.com/codemailpython0/speech-to-text-frontend",
   },
   {
     id: 3,
     title: "chatroom website",
     description:
       "A real-time chatroom platform where users can join, send, and receive messages instantly, built using WebSockets for seamless communication",
-    image: "/projects/project3.jpg",
+    image: "/projects/project4.jpg",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://github.com/codemailpython0/chatroom",
+    githubUrl: "https://github.com/codemailpython0/chatroom",
   },
 
   {
@@ -36,7 +46,7 @@ const projects = [
     title: "AI Powered chatbot",
     description:
       "An AI-powered chatbot built with modern web technologies, capable of understanding and responding to user queries in real-time using advanced natural language processing",
-    image: "/projects/project4.jpg",
+    image: "/projects/project5.jpg",
     tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://chatbot-front.netlify.app/", 
   }
