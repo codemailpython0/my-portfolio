@@ -1,8 +1,18 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
-  {
+   {
     id: 1,
+    title: "Expense Manager",
+    description:
+      "Take charge of your spending. Organize expenses, save more, and stress less",
+    image: "/projects/Expense-manager.png",
+    tags: ["V0-AI", "Vibe Coding", "Supabase", "TypeScript"],
+    demoUrl: "https://expense-managerv0.vercel.app/",
+    githubUrl: "https://github.com/codemailpython0/v0-Expense_manager", 
+  },
+  {
+    id: 2,
     title: "Document Signature",
     description: "A full-stack Document Signature App (DocuSign Clone) that lets users upload PDFs, sign documents digitally, send public signature links, and track signature audits.",
     image: "/projects/project1.png",
@@ -11,7 +21,7 @@ const projects = [
     githubUrl: "https://github.com/codemailpython0/signapp_client",
   },
   {
-    id: 2,
+    id: 3,
     title: "Password Manager",
     description:
       "A secure and intuitive password manager web app to safely store and manage your cards and credentials.",
@@ -21,7 +31,7 @@ const projects = [
     githubUrl: "https://github.com/codemailpython0/password-manager-app",
   },
   {
-    id: 3,
+    id: 4,
     title: "speech to text website",
     description:
       "IA web app that converts uploaded or recorded audio into accurate text using advanced speech recognition APIs like Whisper or Google Speech-to-Text.",
@@ -31,7 +41,7 @@ const projects = [
     githubUrl: "https://github.com/codemailpython0/speech-to-text-frontend",
   },
   {
-    id: 3,
+    id: 5,
     title: "chatroom website",
     description:
       "A real-time chatroom platform where users can join, send, and receive messages instantly, built using WebSockets for seamless communication",
@@ -42,7 +52,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 6,
     title: "AI Powered chatbot",
     description:
       "An AI-powered chatbot built with modern web technologies, capable of understanding and responding to user queries in real-time using advanced natural language processing",
