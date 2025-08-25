@@ -53,12 +53,13 @@ const projects = [
 
   {
     id: 6,
-    title: "AI Powered chatbot",
+    title: "SecurePass",
     description:
-      "An AI-powered chatbot built with modern web technologies, capable of understanding and responding to user queries in real-time using advanced natural language processing",
-    image: "/projects/project5.jpg",
-    tags: ["HTML", "CSS", "JavaScript"],
-    demoUrl: "https://chatbot-front.netlify.app/", 
+      "Futuristic password strength & generator tool with real-time analysis, customizable options, and a sleek UI to create and evaluate strong passwords.",
+    image: "/projects/lockgen.png",
+    tags: ["Loveable-AI", "Vibe-coding"],
+    demoUrl: "https://lockgen.lovable.app/",
+    githubUrl: "https://github.com/codemailpython0/SecurePass", 
   }
 ];
 
