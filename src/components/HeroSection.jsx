@@ -10,24 +10,24 @@ export const HeroSection = () => {
         <div className="space-y-6">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="inline-block opacity-0 float-1">
-              Hi, I'm
+              Hi, I'm&nbsp;
             </span>
             <span className="text-primary inline-block opacity-0 float-2">
-              {" "}Kiran Kumar
+              Kiran Kumar&nbsp;
             </span>
             <span className="text-gradient inline-block ml-2 opacity-0 float-3">
-              {" "}Behera
+              Behera
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto inline-block opacity-0 float-4">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto block opacity-0 float-4">
             I craft engaging digital experiences using modern technologies. As a
             web development specialist, tech enthusiast, and aspiring ethical
             hacker, I build interfaces that are both visually stunning and
             functionally robust.
           </p>
 
-          <div className="pt-4 inline-block opacity-0 float-5">
+          <div className="pt-4 block opacity-0 float-5">
             <a href="#projects" className="cosmic-button">
               View My Work
             </a>
